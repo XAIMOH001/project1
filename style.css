@@ -44,7 +44,47 @@ nav ul li a:hover {
     color: #616464;
 }
 
-main {
-    background: linear-gradient(to left, #181a1a, #060115);
+/* Home Section*/
+
+#home {
     height: 100vh;
-}
+    display: flex;
+    flex-wrap: wrap;
+  
+    background: #222;
+    color: #fff;
+    padding: 50px;
+    gap: 100px;
+  }
+  
+  .home-content {
+    max-width: 600px;
+  }
+
+  .home-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+  }
+  
+  .home-content h1 {
+    font-size: 2.5rem;
+    color: #09f3f7; 
+  }
+  
+  .home-content p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  .home-content a {
+    color: #09f3f7;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .home-content a:hover {
+    color: #067171; 
+  }
+  
