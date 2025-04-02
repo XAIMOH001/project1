@@ -115,8 +115,11 @@ nav ul li a:hover {
 /* ===== RESPONSIVE DESIGN ===== */
 @media (max-width: 768px) {
   .home {
+    display: flex;
       flex-direction: column;
-      text-align: center;
+      align-items: center;
+      padding: 100px 20px 20px;
+      justify-content: center;
   }
 
   .home-image img {
