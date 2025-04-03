@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interests | Simon Chau</title>
+    <style>
+        /* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body and Layout */
+body {
+    background-color: #f4f7f6;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+}
+
+nav a:hover, nav a.active {
+    color: #FFD700;
+}
+
+/* Interests Section */
+.interests-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.interests-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.interests-section p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    color: #666;
+}
+
+.interests-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.interest-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 280px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.interest-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.interest-card h3 {
+    font-size: 1.7rem;
+    color: #007BFF;
+    margin-bottom: 15px;
+}
+
+.interest-card p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Footer */
+.footer-container {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px;
+}
+
+.footer-container p {
+    font-size: 1rem;
+}
+
+    </style>
+</head>
+
+<body>
+    <header class="header-container">
+        <h2>Interests</h2>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="edu.html">Education</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="interests.html" class="active">Interests</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="interests-section">
+        <h1>My Interests</h1>
+        <p>Here are some areas that I am passionate about and enjoy exploring:</p>
+        <div class="interests-container">
+            <div class="interest-card">
+                <h3>Technology & Programming</h3>
+                <p>I am passionate about software development, programming languages, and exploring new technologies that shape the digital world.</p>
+            </div>
+
+            <div class="interest-card">
+                <h3>Robotics</h3>
+                <p>Building and programming robots fascinates me. I enjoy exploring the intersection of hardware and software in robotics projects.</p>
+            </div>
+
+            <div class="interest-card">
+                <h3>Gaming</h3>
+                <p>Video games are a huge part of my downtime. I enjoy both playing and analyzing the design and mechanics behind the games I play.</p>
+            </div>
+
+            <div class="interest-card">
+                <h3>AI & Machine Learning</h3>
+                <p>Exploring the potential of AI and machine learning excites me. The impact these fields have on the future of technology is immense.</p>
+            </div>
+
+            <div class="interest-card">
+                <h3>Music</h3>
+                <p>Music is a big part of my life. Whether it's listening, composing, or producing, I find inspiration in melodies and beats.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-container">
+        <p>&copy; 2025 Simon Chau. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
