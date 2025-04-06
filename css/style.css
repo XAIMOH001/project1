@@ -130,32 +130,10 @@ nav ul li a:hover {
   }
 }
 
-/* ===== FOOTER SECTION ===== */
-.footer-container {
-  background: #181a1a;
-  color: white;
-  text-align: center;
-  padding: 15px 0;
-  margin-top: 50px;
-}
-
-.footer-container p {
-  margin-bottom: 10px;
-}
-
-.social-links a {
-  color: #09f3f7;
-  text-decoration: none;
-  margin: 0 10px;
-  transition: color 0.3s;
-}
-
-.social-links a:hover {
-  color: #067171;
-}
 
 
-/* About Section */
+/* ===== ABOUT SECTION ===== */
+
 #About {
   display: flex;
   align-items: center;
@@ -219,7 +197,8 @@ nav ul li a:hover {
 }
 
 
-/* Education Section */
+/* ===== EDUCATION SECTION ===== */
+
 #edu {
   padding: 80px 50px 20px;
   text-align: center;
@@ -277,7 +256,8 @@ nav ul li a:hover {
 }
 
 
-/* Interests Section */
+/* ===== INTERESTS SECTION ===== */
+
 #interest {
   padding: 80px 50px 20px;
   text-align: center;
@@ -301,6 +281,7 @@ nav ul li a:hover {
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
+  padding-top: 20px;
 }
 
 .interest-card {
@@ -330,7 +311,8 @@ nav ul li a:hover {
 }
 
 
-/* Projects Section */
+/* ===== PROJECTS SECTION ===== */
+
 #projects {
   padding: 80px 50px 20px;
   text-align: center;
@@ -353,6 +335,7 @@ nav ul li a:hover {
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
+  padding-top: 20px;
 }
 
 .project-card {
@@ -396,7 +379,8 @@ nav ul li a:hover {
 }
 
 
-/* Contact Section */
+/* ===== CONTACT SECTION ===== */
+
 #contact {
   padding: 60px 50px 20px;
   text-align: center;
@@ -419,7 +403,7 @@ nav ul li a:hover {
   justify-content: space-between;
   gap: 20px;
   flex-wrap: wrap;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .contact-info {
@@ -429,6 +413,8 @@ nav ul li a:hover {
   border-radius: 8px;
   padding: 20px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  height: auto;
+  max-height: 400px;
 }
 
 .contact-info h2 {
@@ -451,18 +437,20 @@ nav ul li a:hover {
   background-color: #181a1a;
   border: 1px solid #181a2a;
   border-radius: 8px;
-  padding: 20px;
+  padding: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  height: auto;
+  max-height: 400px;
 }
 
 .contact-form h2 {
   font-size: 1.7rem;
   color: #09f3f7;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 .contact-form .form-group {
-  margin-bottom: 20px;
+  margin-bottom: 2px;
   text-align: left;
 }
 
@@ -472,13 +460,21 @@ nav ul li a:hover {
   margin-bottom: 5px;
 }
 
-.contact-form input,
+.contact-form input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  font-size: 1rem;
+}
+
 .contact-form textarea {
   width: 100%;
   padding: 10px;
   border-radius: 5px;
   border: 1px solid #fff;
   font-size: 1rem;
+  resize: none;
 }
 
 .contact-form button.submit-btn {
@@ -494,4 +490,30 @@ nav ul li a:hover {
 
 .contact-form button.submit-btn:hover {
   background-color: #067171;
+}
+
+
+
+/* ===== FOOTER SECTION ===== */
+.footer-container {
+  background: #181a1a;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 50px;
+}
+
+.footer-container p {
+  margin-bottom: 10px;
+}
+
+.social-links a {
+  color: #09f3f7;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #067171;
 }
