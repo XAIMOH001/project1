@@ -115,18 +115,18 @@ nav ul li a:hover {
 @media (max-width: 768px) {
   .home {
     display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 100px 20px 20px;
-      justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 20px 20px;
+    justify-content: center;
   }
 
   .home-image img {
-      max-width: 250px;
+    max-width: 250px;
   }
 
   nav ul {
-      gap: 10px;
+    gap: 10px;
   }
 }
 
@@ -155,126 +155,126 @@ nav ul li a:hover {
 }
 
 
-        /* About Section */
-        #About {
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-          padding: 50px;
-          max-width: 1200px;
-          margin: auto;
-          flex-wrap: wrap;
-          text-align: left;
-      }
+/* About Section */
+#About {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  max-width: 1200px;
+  margin: auto;
+  flex-wrap: wrap;
+  text-align: left;
+}
 
-      .about-content {
-          flex: 1;
-          max-width: 600px;
-      }
+.about-content {
+  flex: 1;
+  max-width: 600px;
+}
 
-      .about-content h1 {
-          font-size: 2.5rem;
-          color: #09f3f7;
-      }
+.about-content h1 {
+  font-size: 2.5rem;
+  color: #09f3f7;
+}
 
-      .about-content p {
-          font-size: 1.2rem;
-          margin: 10px 0;
-      }
+.about-content p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
 
-      .resume-btn {
-          display: inline-block;
-          padding: 12px 20px;
-          background: #09f3f7;
-          color: #222;
-          text-decoration: none;
-          font-weight: bold;
-          border-radius: 5px;
-          transition: 0.3s;
-      }
+.resume-btn {
+  display: inline-block;
+  padding: 12px 20px;
+  background: #09f3f7;
+  color: #222;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: 0.3s;
+}
 
-      .resume-btn:hover {
-          background: #067171;
-          transform: scale(1.05);
-      }
+.resume-btn:hover {
+  background: #067171;
+  transform: scale(1.05);
+}
 
-      /* About Image */
-      .about-image {
-          flex: 1;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-      }
+/* About Image */
+.about-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-      .about-image img {
-          width: 320px;
-          height: auto;
-          border-radius: 50%;
-          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-          transition: transform 0.3s;
-      }
+.about-image img {
+  width: 320px;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s;
+}
 
-      .about-image img:hover {
-          transform: scale(1.05);
-      }
+.about-image img:hover {
+  transform: scale(1.05);
+}
 
 
-              /* Education Section */
-              #edu {
-                padding: 50px 20px;
-                text-align: center;
-            }
-    
-            .education-section h1 {
-                font-size: 2.5rem;
-                margin-bottom: 30px;
-                color: #09f3f7;
-            }
-    
-            .education-container {
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: center;
-                gap: 20px;
-            }
-    
-            .education-box {
-                background-color: #181a1a;
-                border: 1px solid #181a2a;
-                border-radius: 8px;
-                padding: 20px;
-                width: 300px;
-                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            }
-    
-            .education-box h3 {
-                font-size: 1.5rem;
-                color: #09f3f7;
-                margin-bottom: 15px;
-            }
-    
-            .education-box p {
-                font-size: 1rem;
-                margin-bottom: 10px;
-            }
-    
-            /* Standout Courses */
-            .standout-courses {
-                list-style-type: none;
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: center;
-                gap: 15px;
-                margin-top: 30px;
-            }
-    
-            .standout-courses li {
-                background-color: #0a3334;
-                color: white;
-                padding: 10px 20px;
-                border-radius: 25px;
-                font-size: 1.1rem;
-            }
+/* Education Section */
+#edu {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.education-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #09f3f7;
+}
+
+.education-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.education-box {
+  background-color: #181a1a;
+  border: 1px solid #181a2a;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.education-box h3 {
+  font-size: 1.5rem;
+  color: #09f3f7;
+  margin-bottom: 15px;
+}
+
+.education-box p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+/* Standout Courses */
+.standout-courses {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.standout-courses li {
+  background-color: #0a3334;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 1.1rem;
+}
 
 
 /* Interests Section */
@@ -330,8 +330,8 @@ nav ul li a:hover {
 }
 
 
- /* Projects Section */
- #projects {
+/* Projects Section */
+#projects {
   padding: 50px 20px;
   text-align: center;
 }
@@ -396,8 +396,8 @@ nav ul li a:hover {
 }
 
 
- /* Contact Section */
- #contact {
+/* Contact Section */
+#contact {
   padding: 50px 20px;
   text-align: center;
 }
